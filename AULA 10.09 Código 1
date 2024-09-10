@@ -1,0 +1,10 @@
+#Algoritmo de ordenação Bubble Sort usando python:
+#sequencia = "0987654321"
+lista = list(sequencia)
+n = len(lista)
+for i in range(n):
+    for j in range(n - 1):
+        if lista[j] > lista[j + 1]:
+            lista[j], lista[j + 1] = lista[j + 1], lista[j]
+sequencia_ordenada = ''.join(lista)
+print(sequencia_ordenada)
