@@ -1,0 +1,7 @@
+Código que imprima apenas as vogais de uma
+determinada palavra ou frase:
+frase = "eu amo programação"
+vogais = "aeiou"
+for caractere in frase:
+    if caractere in vogais:
+        print(caractere)
